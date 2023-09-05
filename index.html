@@ -19,120 +19,367 @@
     />
   </head>
   <body class="body">
+    
     <!-- navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-white navbarbg fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="#"
-            ><i
-              class="fab fa-linkedin fa-lg"
-              style="color:green; font-size: 2.4rem"
-            ></i
-          ></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          ></button>
-          <form class="form-inline flex-grow-1">
-            <input
-              class="search"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-          </form>
-          <div class="collapse navbar-collapse">
-            <ul class="navbar-nav mr-auto ml-4 text-center">
-              <li class="nav-item active mr-3 my-auto">
-                <a class="nav-link" href="#"
-                  ><i class="fas fa-home fa-lg" style="color: black">
-                    <div class="menutext" style="color: black">Home</div></i
-                  >
-                </a>
-              </li>
-              <li class="nav-item active mr-4 my-auto">
-                <a class="nav-link" href="#"
-                  ><i class="fas fa-user-friends fa-lg">
-                    <div class="menutext">My Network</div></i
-                  >
-                </a>
-              </li>
-              <li class="nav-item active mr-2 my-auto">
-                <a class="nav-link" href="#"
-                  ><i class="fas fa-briefcase fa-lg">
-                    <div class="menutext">My Jobs</div></i
-                  >
-                </a>
-              </li>
-              <li class="nav-item active mr-1 my-auto">
-                <a class="nav-link" href="#"
-                  ><i class="fas fa-comment-dots fa-lg">
-                    <div class="menutext">Messages</div></i
-                  >
-                </a>
-              </li>
-              <li class="nav-item active mr-1 my-auto">
-                <a class="nav-link" href="#"
-                  ><i class="fas fa-bell fa-lg">
-                    <div class="menutext">Notifications</div></i
-                  >
-                </a>
-              </li>
-              <li class="nav-item dropdown mt-1 mr-3 ml-3">
-                <a
-                  class="nav-link"
-                  href="#"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  <img
-                    src="Assets/Mayank formal photo.jpg"
-                    style="
-                      width: 25px;
-                      height: 25px;
-                      border-radius: 50%;
-                    "
-                  />
-                  <div class="menutext mt-0">
-                    Mayank
-                  </div>
-                </a>
-              </li>
-              <li class="nav-item active border-left my-auto">
-                <a class="nav-link ml-4 mr-2" href="#"
-                  ><i class="fas fa-th fa-lg"> <div class="menutext">For Business</div></i>
-                </a>
-              </li>
-              <li class="nav-item active my-auto">
-                <a class="nav-link" href="#"
-                  ><i class="fas fa-chalkboard fa-lg">
-                    <div class="menutext">Search For a Job</div></i
-                  >
-                </a>
-              </li>
-            </ul>
+
+      <nav class="navbar">
+        <div class="navbar-left">
+          <a href="index.html"><img src="Assets/Workin logo.png" class="postprofilphoto"></a>
+          <div class="search">
+            <form>
+              <input
+                class="search"
+                type="search"
+                placeholder="Search"
+              />
+            </form>
+
           </div>
+  
+  
+        </div>
+  
+        <div class="navbar-center">
+  
+          <ul>
+            <li><a href="#"><img src="Assets/home.png" class="activeLink"><span>Home</span></a></li>
+            <li><a href="#"><img src="Assets/netw.png"><span>My Network</span></a></li>
+            <li><a href="#"><img src="Assets/jobs.png"><span>Jobs</span></a></li>
+            <li><a href="#"><img src="Assets/message.png"><span>Messaging</span></a></li>
+            <li><a href="#"><img src="Assets/notif.png"><span>Notifications</span></a></li>
+          </ul>
+  
+        </div>
+  
+        <div class="navbar-right">
+          <img src="Assets/Mayank formal photo.jpg" class="postprofilphoto">
         </div>
       </nav>
+  
+      <!--Navigation bar ends-->
+
+
+
+      <div class="container">
+        <!-- left sidebar   -->
+        <div class="left-sidebar">
+  
+          <div class="sidebar-profile-box">
+            <img src="Assets/cover-pic.png" width="100%">
+            <div class="sidebar-profile-info">
+              <img
+                        src="Assets/Mayank formal photo.jpg"
+                        class="postprofilphoto"
+                        align="center"
+                        style="
+                          width: 70px;
+                          height: 70px;
+                        "
+                      />
+                      <h1><a href="https://www.linkedin.com/in/mayank-singhal-07651a230/" target="_blank" style="color: #212529;">Mayank Singhal</a></h1>
+  
+                      <h3 margin="bottom" >
+                        Competitive Programmer <br/> DSA Mentor / ECE Undergrad
+                      </h3>
+  
+                      <ul>
+                        <li>Manage your Network 
+                          <span>640</span>
+                        </li>
+                        <li>Your Profile Views
+                          <span>120</span>
+                        </li>
+  
+                      </ul>
+            </div>
+
+            <div class="sidebar-profile-link">
+              <a href="#"><img src="Assets/items.png" class="postprofilphoto">My Items</a>
+              <a href="#"><img src="Assets/preminum.png" class="postprofilphoto">Try premium</a> 
+            </div>
+
+          </div>
+
+          <div class="sidebar-pages">
+            <h3>My Pages</h3>
+            <img src="Assets/club.png">
+            <a href="#">The Programmers Club</a>  
+            <div>GET SET CODE....
+            </div>
+          </div>
+          
+          <div class="sidebar-activity">
+					<h3>RECENT</h3>
+					<a href="#"><img src="Assets/recent.png">Algorithms</a>
+					<a href="#"><img src="Assets/recent.png">html</a>
+					<a href="#"><img src="Assets/recent.png">css</a>
+					<a href="#"><img src="Assets/recent.png">Software Engineer</a>
+					<h3>Groups</h3>
+					<a href="#"><img src="Assets/group.png">Learn coding online</a>
+					<a href="#"><img src="Assets/group.png">C++</a>
+					<a href="#"><img src="Assets/group.png">Coders Hub</a>
+					<a href="#"><img src="Assets/group.png">Web Design</a>
+
+					<div class="discover-more-link">
+						<a href="#">Discover More</a>
+					</div>
+				</div>
+
+
+        </div>      
+  
+        <!--    main content   -->
+        <div class="main-content">
+          <div class="create-post">
+            <div class="create-post-input">
+              <img src="Assets/Mayank formal photo.jpg">
+              <textarea rows="2" placeholder="Write a post"></textarea>
+            </div>
+  
+            <div class="create-post-links">
+              <li><img src="Assets/photo.png">Image</li>
+              <li><img src="Assets/video.png">Video</li>
+              <li><img src="Assets/event.png">Event</li>
+              <li>Post</li>
+            </div>
+          </div>
+  
+          <div class="sort-by">
+            <hr>
+            <p>Sort By: <span>Top <img src="Assets/down-arrow/png"></span></p> 
+          </div>
+  
+          <div class="post">
+            <div class="post-author">
+              <img src="Assets/David.J.Malan ProfilePic.jpeg">
+              <div>
+                <h1>David J. Malan</h1>
+                <small>I teach CS50</small>
+                <small>30 min</small>
+              </div>
+            </div>
+  
+            <p>Live from Harvard University starting at 9am EDT, a CS50 workshop for educators interested in adopting or adapting CS50 for their own classrooms.</p>
+            <img src="Assets/post-image1.png" width="100%">
+  
+            <div class="post-stats">
+              <div>
+                <img src="Assets/thumbsup.png">
+                <img src="Assets/love.png">
+                <img src="Assets/clap.png">
+                <span class="liked-users">Sundar Pichai and 17,235 others</span>
+              </div>
+  
+              <div>
+                <span>780 comments &middot; 40 shares</span>
+              </div>
+            </div>	
+  
+            <div class=post-activity>
+              <div>
+                <img src="Assets/David.J.Malan ProfilePic.jpeg" class="post-activity-user-icon">
+                <img src="Assets/down-arrow" class="post-activity-arrow-icon">  
+              </div>
+              <div class="post-activity-link">
+                <img src="Assets/like.png">
+                <span>Like</span>
+              </div>
+  
+              <div class="post-activity-link">
+                <img src="Assets/comment.png">
+                <span>Comment</span>
+              </div>
+  
+              <div class="post-activity-link">
+                <img src="Assets/share.png">
+                <span>Share</span>
+              </div>
+  
+              <div class="post-activity-link">
+                <img src="Assets/send.png">
+                <span>Send</span>
+              </div>
+            </div>
+          </div>
+  
+          <!--    Post 2     -->
+  
+          <div class="post">
+            <div class="post-author">
+              <img src="Assets/Workin logo.png">
+              <div>
+                <h1>WorkIn</h1>
+                <small>23,945,966 followers</small>
+                <small>1h</small>
+              </div>
+            </div>
+  
+            <p>Resetting your Work-life balance....!!</p>
+            <img src="Assets/post-image2.png" width="100%">
+  
+            <div class="post-stats">
+              <div>
+                <img src="Assets/thumbsup.png">
+                <img src="Assets/love.png">
+                <img src="Assets/clap.png">
+                <span class="liked-users">Arnav Sharma and 29,235 others</span>
+              </div>
+  
+              <div>
+                <span>1,540 comments &middot; 74 shares</span>
+              </div>
+            </div>	
+  
+            <div class=post-activity>
+              <div>
+                <img src="Assets/Workin logo.png" class="post-activity-user-icon">
+                <img src="Assets/down-arrow" class="post-activity-arrow-icon">  
+              </div>
+              <div class="post-activity-link">
+                <img src="Assets/like.png">
+                <span>Like</span>
+              </div>
+  
+              <div class="post-activity-link">
+                <img src="Assets/comment.png">
+                <span>Comment</span>
+              </div>
+  
+              <div class="post-activity-link">
+                <img src="Assets/share.png">
+                <span>Share</span>
+              </div>
+  
+              <div class="post-activity-link">
+                <img src="Assets/send.png">
+                <span>Send</span>
+              </div>
+            </div>
+          </div>
+  
+  
+  
+          <!--     post 3     -->
+  
+  
+          <div class="post">
+            <div class="post-author">
+              <img src="Assets/Mayank formal photo.jpg">
+              <div>
+                <h1>Mayank Singhal</h1>
+                <small>Competitve Programmer | ECE Junior at DTU</small>
+                <small>2h</small>
+              </div>
+            </div>
+  
+            <p>Hello my WorkIn network. Glad to inform you all about achieving the milestone of Knight on Leetcode✅.</p>
+            <img src="Assets/post-image3.png" width="100%">
+  
+            <div class="post-stats">
+              <div>
+                <img src="Assets/thumbsup.png">
+                <img src="Assets/love.png">
+                <img src="Assets/clap.png">
+                <span class="liked-users">Vishwas Sahay and 827 others</span>
+              </div>
+  
+              <div>
+                <span>73 comments</span>
+              </div>
+            </div>	
+  
+            <div class=post-activity>
+              <div>
+                <img src="Assets/Mayank formal photo.jpg" class="post-activity-user-icon">
+                <img src="Assets/down-arrow" class="post-activity-arrow-icon">  
+              </div>
+              <div class="post-activity-link">
+                <img src="Assets/like.png">
+                <span>Like</span>
+              </div>
+  
+              <div class="post-activity-link">
+                <img src="Assets/comment.png">
+                <span>Comment</span>
+              </div>
+  
+              <div class="post-activity-link">
+                <img src="Assets/share.png">
+                <span>Share</span>
+              </div>
+  
+              <div class="post-activity-link">
+                <img src="Assets/send.png">
+                <span>Send</span>
+              </div>
+            </div>
+          </div>
+  
+  
+          <!-- posts end     -->
+        </div>
+  
+        <!--     right sidebar    -->
+
+        <div class="right-sidebar">
+
+          <div class="sidebar-news">
     
-    <div class="container">
+            <img src="Assets/more.png" class="info-icon">
+            <h1>WorkIn News</h1>
+            <a href="#">India's Q1 GDP growth surges</a>
+            <span>Top News.  4k readers</span>
+
+            <a href="#">Fintech space set to soar</a>
+            <span>1day ago.  2,063 readers</span>
+
+            <a href="#">Private equity firms invest in IT</a>
+            <span>7h ago.  1,751 readers</span>
+
+            <a href="#" class="subscribe">Subscibe to WorkIn's NewsLetter</a>  
+				  </div>
+
+          <div class="ad">
+            <small>Ad</small>
+            <p>Master the 5 principles of web design</p>
+            <div>
+              <img src="Assets/Mayank formal photo.jpg" class="postprofilphoto">
+              <img src="Assets/David.J.Malan ProfilePic.jpeg" class="postprofilphoto">
+            </div>
+            <b>Get Skilled with CS50</b>
+            <a href="#" class="add-link">Learn More</a>
+          </div>
+
+          <div class="sidebar-useful-links">
+					<a href="#">About</a>
+					<a href="#">Accessibility</a>
+					<a href="#">Help Center</a>
+					<a href="#">Privacy Policy</a>
+					<a href="#">Advertising</a>
+					<a href="#">Get WorkIn App</a>
+					<a href="#">More</a>
+				</div>
+
+				<div class="copyright-msg">
+					<img src="Assets/Workin logo.png" >
+					<p>WorkIn &#169; 2023.<br> All rights reserved</p>
+				</div>
+
+        </div>
+  
+      </div>
+    
+    <!--div class="container">
       <div class="row">
-        <!-- sol panel -->
+        <!-- sol panel ->
         <div class="col-sm-3">
-          <!-- sol panel -->
+          <!-- sol panel ->
           <div class="card">
             <div class="card-header profile-bg">
               <div class="text-center">
                 <img
                   src="Assets/Mayank formal photo.jpg"
-                  class="rounded-circle border border-2 border-white"
+                  class="postprofilphoto"
                   style="
                     width: 70px;
                     height: 70px;
@@ -311,7 +558,7 @@
           </div>
         </div>
 
-        <!-- orta panel -->
+        <!-- orta panel ->
         <div class="col-sm-6">
           <div class="card">
             <div class="card-body">
@@ -353,7 +600,7 @@
             </div>
           </div>
           <hr>
-          <!--* 1.Post *-->
+          <!--* 1.Post *->
           <div class="card">  
             <div class="card-header bg-color-radius">
               <span class="float-right">
@@ -409,7 +656,7 @@
               </div>
             </div>
           </div>
-          <!--* 2.Post *-->
+          <!--* 2.Post *->
           <div class="card mt-2">  
             <div class="card-header bg-color-radius">
               <span class="float-right">
@@ -465,7 +712,7 @@
               </div>
             </div>
           </div>
-          <!--* 3.Post *-->
+          <!--* 3.Post *->
           <div class="card mt-2">  
             <div class="card-header bg-color-radius">
               <span class="float-right">
@@ -523,7 +770,7 @@
           </div>
         </div>
 
-        <!-- sağ panel -->
+        <!-- sağ panel ->
         <div class="col-sm-3">
           <div class="card" style="width: 19rem">
             <div class="card-header bg-color-radius">
@@ -646,7 +893,7 @@
         </div>
       </div>
     </div>
-    <!-- mesajlaşma -->
+    <!-- mesajlaşma ->
     <nav
       class="navbar navbar-expand-xl navbar-light bg-white position-sticky fixed-bottom border"
       style="height: 50px; width: 300px; position: -webkit-sticky; border-radius: 5px; margin-left: auto; right: 15px;"
@@ -660,6 +907,6 @@
       <span class="offset-3"><img src="/assets/edit-regular.svg" width="15px" height="15px" ></span>
       <span><i class="fas fa-ellipsis-h fa-sm ml-3"></i></span>
       <span><i class="fas fa-chevron-up fa-sm ml-3"></i></span>
-    </nav>
+    </nav-->
   </body>
 </html>
